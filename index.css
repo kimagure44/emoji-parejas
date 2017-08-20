@@ -4,7 +4,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    max-width: 80%;
+    max-width: 92%;
     margin: 0 auto;
     flex-flow: row wrap;
 }
@@ -17,13 +17,14 @@ body {
     transition: all 500ms ease-in-out;
     transform: perspective(600px) rotateY(0deg);
     user-select: none;
-    margin: 10px;
+    margin: 10px 20px;
     display: flex;
     flex-direction: column;
-    flex: 1 1 130px;
+    flex: 1 1 170px;
     transform-origin: 50% 50%;
     transition:all 500ms ease-in-out;
     transform-style: preserve-3d;
+    max-width: 133px;
 }
 .card.locked {
     pointer-events: none;
