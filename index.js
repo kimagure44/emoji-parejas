@@ -158,4 +158,4 @@ return {
     }
 };
 }(window, document));
-window.addEventListener("DOMContentLoaded", g.init());
+window.addEventListener("DOMContentLoaded", g.init(), false);
