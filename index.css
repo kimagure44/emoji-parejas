@@ -41,6 +41,8 @@ body {
 .card img {
     width: 132px;
     height: 190px;
+    opacity: 1;
+    transition: 450ms ease-in-out;
 }
 
 .card .flip-1,
@@ -110,4 +112,8 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+.card.turn.locked img {
+    opacity: 0;
+    transition: 450ms ease-in-out;
 }
